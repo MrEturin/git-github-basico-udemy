@@ -37,3 +37,9 @@ git log --graph
 
 #mostra tudo o que foi alterado no commit informado pela hash
 git show <hashDoCommit>
+
+#Mostra quais alterações foram feitas e ainda não foram commitadas
+git diff
+
+#lista apenas os arquivos que foram modificados
+gir diff --name-only

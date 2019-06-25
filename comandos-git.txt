@@ -12,10 +12,10 @@ git init - inicia um novo projeto git
 git status
 
 #Adiciona o arquivo Readme.md ao próximo commit que for realizado
-git add Readme.md
+git add <NomeDoArquivo>
 
 #Primeiro Commit - É o momento em que pedimos para o git criar uma imagem/snapshot dos nossos arquivos
-git commit -m "Add Readme.md"
+git commit -m "Add <NomeDoArquivo>"
 
 #Verifica informações do git
 git log
@@ -43,3 +43,6 @@ git diff
 
 #lista apenas os arquivos que foram modificados
 gir diff --name-only
+
+#Retorna um arquivo para a versão anterior
+git checkout <NomeDoArquivo>

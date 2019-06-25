@@ -46,3 +46,6 @@ gir diff --name-only
 
 #Retorna um arquivo para a versão anterior
 git checkout <NomeDoArquivo>
+
+#Se você já tiver feito o git add, será necessário outro comando para fazer o checkout
+git reset HEAD <NomeDoArquivo>

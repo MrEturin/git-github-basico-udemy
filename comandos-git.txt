@@ -8,7 +8,6 @@ git config --global user.email = "matheus.a.delatorre@gmail.com"
 
 git init - inicia um novo projeto git
 
-
 # Informa o status do seu repositorio
 git status
 
@@ -17,3 +16,24 @@ git add Readme.md
 
 #Primeiro Commit - É o momento em que pedimos para o git criar uma imagem/snapshot dos nossos arquivos
 git commit -m "Add Readme.md"
+
+#Verifica informações do git
+git log
+
+#Mostra mais informações dos commits
+git log --decorate
+
+#Mostra commits do author informado
+git log --author="Matheus Delatorre
+
+#Mostra em ordem alfabetica quais foram os autores e quais commits eles fizeram
+git shortlog
+
+#Mostra quantidade de logs por autores
+git shortlog -sn
+
+#Mostra em forma gráfica o que está acontecendo com meus branchs e minhas versões
+git log --graph
+
+#mostra tudo o que foi alterado no commit informado pela hash
+git show <hashDoCommit>

@@ -1,0 +1,19 @@
+Comandos:
+
+Configurações:
+Para configurar as globais do git:
+
+git config --global user.name = "Matheus Delatorre"
+git config --global user.email = "matheus.a.delatorre@gmail.com"
+
+git init - inicia um novo projeto git
+
+
+# Informa o status do seu repositorio
+git status
+
+#Adiciona o arquivo Readme.md ao próximo commit que for realizado
+git add Readme.md
+
+#Primeiro Commit - É o momento em que pedimos para o git criar uma imagem/snapshot dos nossos arquivos
+git commit -m "Add Readme.md"

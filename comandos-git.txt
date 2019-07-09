@@ -49,3 +49,12 @@ git checkout <NomeDoArquivo>
 
 #Se você já tiver feito o git add, será necessário outro comando para fazer o checkout
 git reset HEAD <NomeDoArquivo>
+
+#Pega modificações e volta para o commit anterior. O arquivo estará pronto para ser comitado novamente
+git reset --soft
+
+#Retorna os arquiovos para antes do commit mas em estado de stateless
+git reset --mixed
+
+#reseta tudo o que foi feito no commit
+git reset --hard

@@ -50,11 +50,18 @@ git checkout <NomeDoArquivo>
 #Se você já tiver feito o git add, será necessário outro comando para fazer o checkout
 git reset HEAD <NomeDoArquivo>
 
+!!hashFromCommit sem é a hash anterior a que você precisa retornar
+
 #Pega modificações e volta para o commit anterior. O arquivo estará pronto para ser comitado novamente
-git reset --soft
+git reset --soft hashFromCommit
 
 #Retorna os arquiovos para antes do commit mas em estado de stateless
-git reset --mixed
+git reset --mixed hashFromCommit
 
 #reseta tudo o que foi feito no commit
 git reset --hard
+
+##cria chave SSH
+ssh-keygen -t rsa -b 4096 -C "matheus.a.delatorre@gmail"
+
+Para adicionar a chave ssh ao github vá em settings e depois em SSH and GPG keys - new SSH KEY

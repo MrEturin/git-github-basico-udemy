@@ -65,3 +65,13 @@ git reset --hard
 ssh-keygen -t rsa -b 4096 -C "matheus.a.delatorre@gmail"
 
 Para adicionar a chave ssh ao github vá em settings e depois em SSH and GPG keys - new SSH KEY
+
+Realiza o envio para o repositorio remoto com o nome destino e o branch
+git push -u origin master
+
+Ai, para realizar o envio dos arquivos para o repositório online, sempre é necessário realizar todos os passos: git add <nomedoarquivo>, git commit e o git push origin master
+
+Quando necessário realizar o donwload de um repositório já existente( seu ou de outras pessoas ), é possível utilizar o comando git clone. Com este comando podemos baixar os arquivos do repositório e realizar a contribuição com os projetos
+git clone git@github.com:MrEturin/git-github-basico-udemy.git
+
+

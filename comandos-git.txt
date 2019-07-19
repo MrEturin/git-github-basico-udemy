@@ -66,6 +66,9 @@ ssh-keygen -t rsa -b 4096 -C "matheus.a.delatorre@gmail"
 
 Para adicionar a chave ssh ao github vá em settings e depois em SSH and GPG keys - new SSH KEY
 
+após criar o repositório remoto, utilizar os comandos informados para realizar a vindulação do repositório local para o remoto
+git remote add origin linkDoRepositorio
+
 Realiza o envio para o repositorio remoto com o nome destino e o branch
 git push -u origin master
 

@@ -85,4 +85,5 @@ git checkout -b <nomedobranch>
 Mudando de Branch
 git checkout <nomedobranch>
 
-
+Deletando branch
+git branch -D <nomedobranch>

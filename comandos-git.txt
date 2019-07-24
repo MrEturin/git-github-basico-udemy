@@ -77,4 +77,7 @@ Ai, para realizar o envio dos arquivos para o repositório online, sempre é nec
 Quando necessário realizar o donwload de um repositório já existente( seu ou de outras pessoas ), é possível utilizar o comando git clone. Com este comando podemos baixar os arquivos do repositório e realizar a contribuição com os projetos
 git clone git@github.com:MrEturin/git-github-basico-udemy.git
 
+--BRANCH--
 
+Criar novo branch
+git checkout -b <nomedobranch>

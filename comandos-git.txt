@@ -81,3 +81,8 @@ git clone git@github.com:MrEturin/git-github-basico-udemy.git
 
 Criar novo branch
 git checkout -b <nomedobranch>
+
+Mudando de Branch
+git checkout <nomedobranch>
+
+

@@ -87,3 +87,13 @@ git checkout <nomedobranch>
 
 Deletando branch
 git branch -D <nomedobranch>
+
+
+git merge
+para realizar o merge do branch e master podemos utilizar o merge. criar um novo commit e neste commit irá conter o master e seu branch.
+
+git rebase
+o rebase não cria um novo commit, ele pega o último commit do master e coloca na frente no último commit do branch, e assim realiza a junção dos dois.
+
+
+ 
